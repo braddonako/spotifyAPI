@@ -49,7 +49,7 @@ class App extends Component {
           Now Playing {this.state.nowPlaying.name}
         </div>
         <div>
-          <img src={this.state.nowPlaying.image} style={{width: 100}}/>
+          <img src={this.state.nowPlaying.image} alt='Now playing album cover' style={{width: 100}}/>
         </div>
         <button onClick={(this.getNowPlaying)}>Check now playing</button>
       </div>
